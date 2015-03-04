@@ -16,6 +16,8 @@ gem 'jbuilder', '~> 2.0'                     # Build JSON APIs with ease. Read m
 # database
 # ========
 gem 'pg'                                     # Use PostgreSQL as the database for Active Record
+gem 'mongoid'                                # MongoDB driver & Object-Relational Mapper (ORM)
+gem 'redis'                                  # Redis driver
 
 
 # system & support

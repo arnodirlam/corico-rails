@@ -40,6 +40,25 @@ sudo -u postgres psql
   -> \q
 ```
 
+### Redis
+#### On OS X
+```
+brew install redis
+```
+
+#### On Ubuntu
+```
+sudo apt-add-repository https://launchpad.net/~rwky/+archive/redis
+sudo apt-get install redis-server -y
+```
+
+### MongoDB
+#### On OS X
+Refer to: http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
+
+#### On Ubuntu
+Refer to: http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+
 ## Defaults
 Admin login:
 * `admin@example.com`

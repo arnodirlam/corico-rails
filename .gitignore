@@ -22,3 +22,6 @@
 
 # symlink to gems directory
 /gems*
+
+# IntelliJ (RubyMine) project dir
+/.idea/
